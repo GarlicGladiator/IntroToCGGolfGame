@@ -4,9 +4,9 @@ using System.Collections;
 [RequireComponent(typeof(Rigidbody))]
 public class BallMovement : MonoBehaviour
 {
-    [SerializeField] private float maxPower = 20f;
     [SerializeField] private float powerMultiplier = 1.5f;
-    [SerializeField]private float currentPower = 0f;
+    public float maxPower = 20f;
+    public float currentPower = 0f;
 
     [SerializeField] private Camera cam;
     private Rigidbody rb;
@@ -17,6 +17,8 @@ public class BallMovement : MonoBehaviour
 
     [SerializeField] private float maxLineDistance = 2f;
     private LineRenderer lineRenderer;
+    
+    [SerializeField] private GameManager gameManager;
     
     void Start()
     {
@@ -87,6 +89,9 @@ public class BallMovement : MonoBehaviour
 
     private void ShootBall()
     {
+        if (gameManager != null)
+            gameManager.AddStroke();
+        
         Vector3 shootDir = cam.transform.forward;
         shootDir.y = 0;
         shootDir.Normalize();
