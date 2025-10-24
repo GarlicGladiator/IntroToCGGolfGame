@@ -25,7 +25,12 @@ public class GameManager : MonoBehaviour
     private void UpdateStrokesUI()
     {
         if (strokesText != null)
-            strokesText.text = "Strokes: " + currentStrokes + " / " + maxStrokes + "";
+        {
+            if (currentStrokes <= maxStrokes)
+                strokesText.text = "Strokes: " + currentStrokes + " / " + maxStrokes + "";
+            else
+                strokesText.text = "You made me sad...";
+        }
     }
 
     public void AddStroke()
@@ -41,7 +46,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    private void LoseGame()
+    public void LoseGame()
     {
         gameOver = true;
         Time.timeScale = 0f;

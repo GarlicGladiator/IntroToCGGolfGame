@@ -11,6 +11,8 @@ public class BallMovement : MonoBehaviour
     [SerializeField] private Camera cam;
     private Rigidbody rb;
     
+    private Vector3 lastSafePosition;
+    
     private bool isCharging;
     private Vector3 mouseStartPos;
     private bool isMoving = false;
@@ -25,6 +27,8 @@ public class BallMovement : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         if (cam == null)
             cam = Camera.main;
+        
+        lastSafePosition = transform.position;
         
         // Set up line renderer
         lineRenderer = gameObject.AddComponent<LineRenderer>();
@@ -89,9 +93,6 @@ public class BallMovement : MonoBehaviour
 
     private void ShootBall()
     {
-        if (gameManager != null)
-            gameManager.AddStroke();
-        
         Vector3 shootDir = cam.transform.forward;
         shootDir.y = 0;
         shootDir.Normalize();
@@ -131,5 +132,19 @@ public class BallMovement : MonoBehaviour
         rb.linearVelocity = Vector3.zero;
         rb.angularVelocity = Vector3.zero;
         isMoving = false;
+        
+        lastSafePosition = transform.position;
+        
+        if (gameManager != null)
+            gameManager.AddStroke();
+    }
+
+    public void ResetBall()
+    {
+        rb.linearVelocity = Vector3.zero;
+        rb.angularVelocity = Vector3.zero;
+        transform.position = lastSafePosition;
+        isMoving = false;
+        
     }
 }
