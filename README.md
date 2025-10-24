@@ -15,3 +15,13 @@ For the height texture, I multiplied it by a customizable height amount float wh
 
 - Specular + Reflect Shader
 I wanted to make a shader for reflective surfaces like the metal saw blade which not only reflected the environment but had specular lighting to emphasize it’s metallic texture as well as a base colour that is tweakable to mimic roughness without needing a rough map or metallic map. Unlike the regular simple specular shader, I tweaked some of the properties and nodes so that the colour is always present and isn’t just totally dark on one side and I added reflectance to it to further show the shininess of the saw’s metal surface. 
+
+
+REFERENCES: 
+We both used a lot of the tutorial and lecture slides to help us create our shaders, especially for the lambert and lambert + ambient ones because those were very simple and is pretty one to one.
+Additional youtube videos were used for learning and guidance on how to make certain shader effects:
+
+https://www.youtube.com/watch?v=Tjo6mUhqui8
+https://www.youtube.com/watch?v=Vg0L9aCRWPE
+https://www.youtube.com/watch?v=2KSLO9JnxHA
+https://www.youtube.com/watch?v=OqxWgfgUUC4
