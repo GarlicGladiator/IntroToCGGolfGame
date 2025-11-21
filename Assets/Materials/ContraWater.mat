@@ -49,12 +49,12 @@ Material:
     - _WaveSpeed: 1
     - _WaveStrength: 0.6
     - _Wave_Speed: 1
-    - _Wave_Strength: 0.5
+    - _Wave_Strength: 0.05
     m_Colors:
-    - _Base_Color: {r: 0.065396875, g: 0.42591733, b: 0.6301887, a: 0}
-    - _Foam_Color: {r: 0.8716981, g: 0.8716981, b: 0.8716981, a: 0}
+    - _Base_Color: {r: 0, g: 0.427451, b: 0.8862746, a: 0}
+    - _Foam_Color: {r: 0.23137257, g: 0.5764706, b: 0.89019614, a: 0}
     - _Foam_Velocity: {r: 0.02, g: 0.01, b: 0, a: 0}
-    - _Riple_Color: {r: 0, g: 0.23223527, b: 0.509434, a: 0}
+    - _Riple_Color: {r: 0, g: 0.15292618, b: 0.76052475, a: 0}
     - _Riples_Are_Flowing: {r: 0.01, g: -0.05, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
