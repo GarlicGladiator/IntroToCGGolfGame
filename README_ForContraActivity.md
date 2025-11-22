@@ -1,27 +1,10 @@
-# IntroToCGGolfGame
+# ContraActivityForBonus
 
-SHADERS:
-- Emission
-This shader wasn't part of any of the lighting models shown in class and is completley custom. This shader's purpose is to take in an emmission map and have the ability to not only change the colour of it but also make it glow using unity's lit shader graph. 
-![Alt text](image-1.png)
-This part grabs the emission map and gives the white parts a colour. The white part of the map tells you what is bright and the black tells you what is dark. 
-![Alt text](image-2.png)
-Afterwards, I multiplied it with a float so the shader can actually glow and have power according to the settings the particular object/scene needs. Then, it is multiplied with the 
-base colour map so it is not completely flat and still has some painted, material texture. The node is then plugged into the emmission channel of the fragment shader. 
+SHADERS for Contra:
 
-- Normal + Height Map Shader
-This is very similar to the bump shader we learned in class but rather than a bump map, it’s a normal map instead. I made this shader for the wood materials to make them look 3D without having to change the geometry as the wooden objects are the most detailed in texture. I slightly changed the original bump shader by converting the sample texture to a “normal” type, then I did essentially the same process by multiplying by a customizable float and plugging that into a dot product node with a light direction. 
-For the height texture, I multiplied it by a customizable height amount float which is multiplied again with a view direction. That product is put in a subtract node with a UV node so the object can look like it sticks out more in some parts with the offset. This is plugged into a colour base texture sample node, then multiplied with a colour. I tried to also add in some ambient lighting before they all hit the colour shader.
+-Jason's shaders
+Water shader: 
+Made to create a foam effect around terrain. The reason for this new water shader is because it creates a more realistic and dynamic water effect. This water has a scrolling texture on it and a wavy effect that makes it look like the waves are actually moving. Having more dynamic water (if kept at a reasonable amplitude and speed) makes the scene feel more alive and interesting to play in than a flat water effect that Contra had. 
 
-- Specular + Reflect Shader
-I wanted to make a shader for reflective surfaces like the metal saw blade which not only reflected the environment but had specular lighting to emphasize it’s metallic texture as well as a base colour that is tweakable to mimic roughness without needing a rough map or metallic map. Unlike the regular simple specular shader, I tweaked some of the properties and nodes so that the colour is always present and isn’t just totally dark on one side and I added reflectance to it to further show the shininess of the saw’s metal surface. 
-
-
-REFERENCES: 
-We both used a lot of the tutorial and lecture slides to help us create our shaders, especially for the lambert and lambert + ambient ones because those were very simple and is pretty one to one.
-Additional youtube videos were used for learning and guidance on how to make certain shader effects:
-
-https://www.youtube.com/watch?v=Tjo6mUhqui8
-https://www.youtube.com/watch?v=Vg0L9aCRWPE
-https://www.youtube.com/watch?v=2KSLO9JnxHA
-https://www.youtube.com/watch?v=OqxWgfgUUC4
+Terrain shader: 
+Next I made a terrain shader that applies a simple tiling texture that makes things look like it was painted with a brush. This texture is grayscaled so I used vertex colors to make it actually grass and rock colored. I used vertex painting in blender to get the vertex colors. After applying the vertex colors over the texture, I also applied a rocky normal map to make the terrain look less flat. The terrain is still flat to keep the simple blockiness of Contra, but the extra rocky texture enhances the style of the terrain. The rocky texture helps sell that the player is standing on terrain and for areas where terrain overlap, there is some contrast between the grass and the rocky wall behind the player in terms of texture (adding a sense of depth). The way the rocky texture is by using vertex colors as a mask. Because I knew the green areas should be less rocky, I took the green channel of vertex colors and masked the rocky normal map and cracks. this helps to save on space as well because its reusing the data from vertex colors. 
