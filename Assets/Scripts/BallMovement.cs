@@ -27,19 +27,24 @@ public class BallMovement : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         if (cam == null)
             cam = Camera.main;
-        
+    
         lastSafePosition = transform.position;
-        
+    
         // Set up line renderer
         lineRenderer = gameObject.AddComponent<LineRenderer>();
         lineRenderer.positionCount = 2;
         lineRenderer.startWidth = 0.05f;
         lineRenderer.endWidth = 0.05f;
-        lineRenderer.material = new Material(Shader.Find("Sprites/Default"));
+
+        // URP-compatible unlit material
+        lineRenderer.material = new Material(Shader.Find("Universal Render Pipeline/Unlit"));
+        lineRenderer.material.color = Color.yellow;
+
         lineRenderer.startColor = Color.yellow;
         lineRenderer.endColor = Color.yellow;
         lineRenderer.enabled = false;
     }
+
 
     void Update()
     {

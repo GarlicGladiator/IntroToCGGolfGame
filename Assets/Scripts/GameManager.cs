@@ -51,6 +51,9 @@ public class GameManager : MonoBehaviour
         gameOver = true;
         Time.timeScale = 0f;
         loseScreen.SetActive(true);
+        
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 
     public void WinGame()
@@ -60,11 +63,17 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 0f;
         gameOver = true;
         winScreen.SetActive(true);
+        
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
     
     public void RestartGame()
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        
+        Cursor.lockState = CursorLockMode.Confined;
+        Cursor.visible = false;
     }
 }
