@@ -4217,6 +4217,7 @@ GameObject:
   - component: {fileID: 1079077644}
   - component: {fileID: 1079077643}
   - component: {fileID: 1079077642}
+  - component: {fileID: 1079077648}
   - component: {fileID: 1079077647}
   m_Layer: 0
   m_Name: Ball
@@ -4359,6 +4360,22 @@ MonoBehaviour:
   cam: {fileID: 330585545}
   maxLineDistance: 2.5
   gameManager: {fileID: 1476575796}
+--- !u!114 &1079077648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1079077641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a983984ae34b36149a54933dce1f7a69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volume: {fileID: 832575518}
+  lutA: {fileID: 2800000, guid: 17549a19428f4464a81200cfad94596e, type: 3}
+  lutB: {fileID: 2800000, guid: 455facbe5bcdb9f459880068c1aadc0b, type: 3}
+  lutC: {fileID: 2800000, guid: 6a75c57bfe468b7408d83f61f6867a5e, type: 3}
 --- !u!1001 &1106091522
 PrefabInstance:
   m_ObjectHideFlags: 0
