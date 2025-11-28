@@ -16,6 +16,12 @@ public class CameraController : MonoBehaviour
     [SerializeField] private float smoothSpeed = 5f;
     
     private float currentYaw = 0f;
+
+    void Start()
+    {
+        Cursor.lockState = CursorLockMode.Confined;
+        Cursor.visible = false;
+    }
     
     private void LateUpdate()
     {
