@@ -11,12 +11,14 @@ GameObject:
   - component: {fileID: 303728650699881296}
   - component: {fileID: 6712272464250307067}
   - component: {fileID: 554236105329502416}
+  - component: {fileID: 125730356181062387}
+  - component: {fileID: 5268168972593046862}
   m_Layer: 0
   m_Name: Tori_RoofTop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &303728650699881296
 Transform:
@@ -86,6 +88,43 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &125730356181062387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1593932789691411493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 221dd027812f65b41b98f03c66d969f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materialDefault: {fileID: 2100000, guid: 4eab67c2730920847909709c1228dca8, type: 2}
+  materialOld: {fileID: 2100000, guid: 4eab67c2730920847909709c1228dca8, type: 2}
+  materialNoLight: {fileID: 2100000, guid: 584c99032e4e40b40bc9c83c5e8af5d4, type: 2}
+--- !u!64 &5268168972593046862
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1593932789691411493}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2143455899599462751, guid: 0145b5e6aea01554aa6dd8edc8a2a2cb, type: 3}
 --- !u!1 &2553582216553931154
 GameObject:
   m_ObjectHideFlags: 0
@@ -97,12 +136,14 @@ GameObject:
   - component: {fileID: 3518272847363258494}
   - component: {fileID: 4288743936647558192}
   - component: {fileID: 1715878391843844610}
+  - component: {fileID: 1627043362954431925}
+  - component: {fileID: 7385140071660187349}
   m_Layer: 0
   m_Name: Tori_BottomLedge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &3518272847363258494
 Transform:
@@ -172,6 +213,43 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &1627043362954431925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2553582216553931154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 221dd027812f65b41b98f03c66d969f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materialDefault: {fileID: 2100000, guid: 4d7aecefd5cb9a24b97261353f18cf24, type: 2}
+  materialOld: {fileID: 2100000, guid: 4d7aecefd5cb9a24b97261353f18cf24, type: 2}
+  materialNoLight: {fileID: 2100000, guid: 0fe91956322ce824fa5409afb62bc705, type: 2}
+--- !u!64 &7385140071660187349
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2553582216553931154}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3958238317145045125, guid: 0145b5e6aea01554aa6dd8edc8a2a2cb, type: 3}
 --- !u!1 &3216830991355107559
 GameObject:
   m_ObjectHideFlags: 0
@@ -183,12 +261,14 @@ GameObject:
   - component: {fileID: 5686621746457350133}
   - component: {fileID: 9143709064024253097}
   - component: {fileID: 6583746563256509348}
+  - component: {fileID: 5389208449225525701}
+  - component: {fileID: 3033646508383437388}
   m_Layer: 0
   m_Name: PP_Lantern_Rim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5686621746457350133
 Transform:
@@ -258,69 +338,43 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &3432314836561515972
-GameObject:
+--- !u!114 &5389208449225525701
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 491978655193273003}
-  m_Layer: 0
-  m_Name: Lantern_L (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &491978655193273003
-Transform:
+  m_GameObject: {fileID: 3216830991355107559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 221dd027812f65b41b98f03c66d969f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materialDefault: {fileID: 2100000, guid: 69e97d50732218242821ec907d856a74, type: 2}
+  materialOld: {fileID: 2100000, guid: 69e97d50732218242821ec907d856a74, type: 2}
+  materialNoLight: {fileID: 2100000, guid: dbc10cc026fcd414bad460c78b839dfe, type: 2}
+--- !u!64 &3033646508383437388
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3432314836561515972}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.493, y: 3.3715518, z: 0.001074791}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2360282484858285331}
-  m_Father: {fileID: 6576783766663326040}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &3993246557848663013
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6900192756637691011}
-  m_Layer: 0
-  m_Name: Lantern_L
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6900192756637691011
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3993246557848663013}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.4760017, y: 3.3715518, z: 0.0060749054}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 6576783766663326040}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_GameObject: {fileID: 3216830991355107559}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1143483630678051412, guid: 0145b5e6aea01554aa6dd8edc8a2a2cb, type: 3}
 --- !u!1 &4391878088180390010
 GameObject:
   m_ObjectHideFlags: 0
@@ -332,12 +386,14 @@ GameObject:
   - component: {fileID: 5951708156464341292}
   - component: {fileID: 5522438061137077838}
   - component: {fileID: 5123965753706504506}
+  - component: {fileID: 7762471875683273407}
+  - component: {fileID: 8804360229371112672}
   m_Layer: 0
   m_Name: PPLantern_Base.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5951708156464341292
 Transform:
@@ -407,6 +463,43 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &7762471875683273407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4391878088180390010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 221dd027812f65b41b98f03c66d969f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materialDefault: {fileID: 2100000, guid: 0aa93e0a34748034d88946169573bf91, type: 2}
+  materialOld: {fileID: 2100000, guid: 0aa93e0a34748034d88946169573bf91, type: 2}
+  materialNoLight: {fileID: 2100000, guid: c925e00bf0f45c94491ca440b6c4d9c7, type: 2}
+--- !u!64 &8804360229371112672
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4391878088180390010}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 384698534440748358, guid: 1d20fd272ce4f004c87c52425faf89e3, type: 3}
 --- !u!1 &5228437798177643404
 GameObject:
   m_ObjectHideFlags: 0
@@ -418,12 +511,14 @@ GameObject:
   - component: {fileID: 2065321791286332528}
   - component: {fileID: 3883101691618998177}
   - component: {fileID: 7794832933667439608}
+  - component: {fileID: 4470442431668985042}
+  - component: {fileID: 5687625376147980173}
   m_Layer: 0
   m_Name: Tori_UnderRoof
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2065321791286332528
 Transform:
@@ -493,6 +588,43 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &4470442431668985042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5228437798177643404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 221dd027812f65b41b98f03c66d969f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materialDefault: {fileID: 2100000, guid: 4eab67c2730920847909709c1228dca8, type: 2}
+  materialOld: {fileID: 2100000, guid: 4eab67c2730920847909709c1228dca8, type: 2}
+  materialNoLight: {fileID: 2100000, guid: 584c99032e4e40b40bc9c83c5e8af5d4, type: 2}
+--- !u!64 &5687625376147980173
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5228437798177643404}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6587055547942495160, guid: 0145b5e6aea01554aa6dd8edc8a2a2cb, type: 3}
 --- !u!1 &5246750385210010133
 GameObject:
   m_ObjectHideFlags: 0
@@ -504,12 +636,14 @@ GameObject:
   - component: {fileID: 5223796547759955071}
   - component: {fileID: 4729021010455598894}
   - component: {fileID: 750168693001994341}
+  - component: {fileID: 7162737234161151914}
+  - component: {fileID: 2227457670804602071}
   m_Layer: 0
   m_Name: Tori_Rope
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5223796547759955071
 Transform:
@@ -579,6 +713,43 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &7162737234161151914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5246750385210010133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 221dd027812f65b41b98f03c66d969f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materialDefault: {fileID: 0}
+  materialOld: {fileID: 0}
+  materialNoLight: {fileID: 0}
+--- !u!64 &2227457670804602071
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5246750385210010133}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1391362178698410965, guid: 0145b5e6aea01554aa6dd8edc8a2a2cb, type: 3}
 --- !u!1 &5513012533815244945
 GameObject:
   m_ObjectHideFlags: 0
@@ -590,12 +761,14 @@ GameObject:
   - component: {fileID: 2360282484858285331}
   - component: {fileID: 8822536231388553177}
   - component: {fileID: 4774986267251814552}
+  - component: {fileID: 5113779898306748345}
+  - component: {fileID: 1216155703614489325}
   m_Layer: 0
   m_Name: PPLantern_Base.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2360282484858285331
 Transform:
@@ -605,12 +778,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5513012533815244945}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: 3.493, y: 3.3715518, z: 0.001074791}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 491978655193273003}
+  m_Father: {fileID: 6576783766663326040}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &8822536231388553177
 MeshFilter:
@@ -665,6 +838,43 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &5113779898306748345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5513012533815244945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 221dd027812f65b41b98f03c66d969f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materialDefault: {fileID: 2100000, guid: 0aa93e0a34748034d88946169573bf91, type: 2}
+  materialOld: {fileID: 2100000, guid: 0aa93e0a34748034d88946169573bf91, type: 2}
+  materialNoLight: {fileID: 2100000, guid: c925e00bf0f45c94491ca440b6c4d9c7, type: 2}
+--- !u!64 &1216155703614489325
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5513012533815244945}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 384698534440748358, guid: 1d20fd272ce4f004c87c52425faf89e3, type: 3}
 --- !u!1 &5552960764698429230
 GameObject:
   m_ObjectHideFlags: 0
@@ -676,12 +886,14 @@ GameObject:
   - component: {fileID: 3188662899694487930}
   - component: {fileID: 1855285941271894485}
   - component: {fileID: 8207513930209586992}
+  - component: {fileID: 6656309706385116343}
+  - component: {fileID: 3214662631780513697}
   m_Layer: 0
   m_Name: Tori_TopLedge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &3188662899694487930
 Transform:
@@ -751,6 +963,43 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &6656309706385116343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5552960764698429230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 221dd027812f65b41b98f03c66d969f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materialDefault: {fileID: 2100000, guid: 4d7aecefd5cb9a24b97261353f18cf24, type: 2}
+  materialOld: {fileID: 2100000, guid: 4d7aecefd5cb9a24b97261353f18cf24, type: 2}
+  materialNoLight: {fileID: 2100000, guid: 0fe91956322ce824fa5409afb62bc705, type: 2}
+--- !u!64 &3214662631780513697
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5552960764698429230}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5300386945185688837, guid: 0145b5e6aea01554aa6dd8edc8a2a2cb, type: 3}
 --- !u!1 &5595756774000477027
 GameObject:
   m_ObjectHideFlags: 0
@@ -762,12 +1011,14 @@ GameObject:
   - component: {fileID: 6608480480138599426}
   - component: {fileID: 5665478161238967093}
   - component: {fileID: 645131246398032355}
+  - component: {fileID: 2454144721550597518}
+  - component: {fileID: 9148145398284569736}
   m_Layer: 0
   m_Name: Tori_PillarB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &6608480480138599426
 Transform:
@@ -837,6 +1088,43 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &2454144721550597518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5595756774000477027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 221dd027812f65b41b98f03c66d969f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materialDefault: {fileID: 2100000, guid: 4d7aecefd5cb9a24b97261353f18cf24, type: 2}
+  materialOld: {fileID: 2100000, guid: 4d7aecefd5cb9a24b97261353f18cf24, type: 2}
+  materialNoLight: {fileID: 2100000, guid: 0fe91956322ce824fa5409afb62bc705, type: 2}
+--- !u!64 &9148145398284569736
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5595756774000477027}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1206159119293184733, guid: 0145b5e6aea01554aa6dd8edc8a2a2cb, type: 3}
 --- !u!1 &7150339464284457333
 GameObject:
   m_ObjectHideFlags: 0
@@ -848,12 +1136,14 @@ GameObject:
   - component: {fileID: 1375871367990864470}
   - component: {fileID: 749790487590977569}
   - component: {fileID: 505965360161238332}
+  - component: {fileID: 8723876127948278405}
+  - component: {fileID: 2265262133098847134}
   m_Layer: 0
   m_Name: Tori_TopHat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1375871367990864470
 Transform:
@@ -923,6 +1213,43 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &8723876127948278405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7150339464284457333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 221dd027812f65b41b98f03c66d969f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materialDefault: {fileID: 2100000, guid: 4eab67c2730920847909709c1228dca8, type: 2}
+  materialOld: {fileID: 2100000, guid: 4eab67c2730920847909709c1228dca8, type: 2}
+  materialNoLight: {fileID: 2100000, guid: 584c99032e4e40b40bc9c83c5e8af5d4, type: 2}
+--- !u!64 &2265262133098847134
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7150339464284457333}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6730532477161988907, guid: 0145b5e6aea01554aa6dd8edc8a2a2cb, type: 3}
 --- !u!1 &7436125225490019270
 GameObject:
   m_ObjectHideFlags: 0
@@ -934,12 +1261,14 @@ GameObject:
   - component: {fileID: 2159552500474398595}
   - component: {fileID: 4913599215318920816}
   - component: {fileID: 3040793400640074470}
+  - component: {fileID: 609559156222725351}
+  - component: {fileID: 3804978402748959483}
   m_Layer: 0
   m_Name: Tori_PillarBottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2159552500474398595
 Transform:
@@ -1009,6 +1338,43 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &609559156222725351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7436125225490019270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 221dd027812f65b41b98f03c66d969f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materialDefault: {fileID: 2100000, guid: 4eab67c2730920847909709c1228dca8, type: 2}
+  materialOld: {fileID: 2100000, guid: 4eab67c2730920847909709c1228dca8, type: 2}
+  materialNoLight: {fileID: 2100000, guid: 584c99032e4e40b40bc9c83c5e8af5d4, type: 2}
+--- !u!64 &3804978402748959483
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7436125225490019270}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -960758740371697982, guid: 0145b5e6aea01554aa6dd8edc8a2a2cb, type: 3}
 --- !u!1 &7996788658345460076
 GameObject:
   m_ObjectHideFlags: 0
@@ -1049,9 +1415,8 @@ Transform:
   - {fileID: 1375871367990864470}
   - {fileID: 3188662899694487930}
   - {fileID: 2065321791286332528}
-  - {fileID: 6900192756637691011}
   - {fileID: 5951708156464341292}
-  - {fileID: 491978655193273003}
+  - {fileID: 2360282484858285331}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8111883984082475149
@@ -1065,12 +1430,14 @@ GameObject:
   - component: {fileID: 8133739855109685877}
   - component: {fileID: 3361424917858776462}
   - component: {fileID: 5639326357274368358}
+  - component: {fileID: 7248771579890990696}
+  - component: {fileID: 4765677668793783895}
   m_Layer: 0
   m_Name: Tori_Roof
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &8133739855109685877
 Transform:
@@ -1140,6 +1507,43 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &7248771579890990696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8111883984082475149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 221dd027812f65b41b98f03c66d969f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materialDefault: {fileID: 2100000, guid: 69e97d50732218242821ec907d856a74, type: 2}
+  materialOld: {fileID: 2100000, guid: 69e97d50732218242821ec907d856a74, type: 2}
+  materialNoLight: {fileID: 2100000, guid: dbc10cc026fcd414bad460c78b839dfe, type: 2}
+--- !u!64 &4765677668793783895
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8111883984082475149}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2141219023094133173, guid: 0145b5e6aea01554aa6dd8edc8a2a2cb, type: 3}
 --- !u!1 &8785292137822230238
 GameObject:
   m_ObjectHideFlags: 0
@@ -1151,12 +1555,14 @@ GameObject:
   - component: {fileID: 3861984818808388840}
   - component: {fileID: 93465599943746406}
   - component: {fileID: 4215731989870183276}
+  - component: {fileID: 7734964574804631747}
+  - component: {fileID: 4349160046354757921}
   m_Layer: 0
   m_Name: Tori_MiddleLedge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &3861984818808388840
 Transform:
@@ -1226,3 +1632,40 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &7734964574804631747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8785292137822230238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 221dd027812f65b41b98f03c66d969f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materialDefault: {fileID: 2100000, guid: 4d7aecefd5cb9a24b97261353f18cf24, type: 2}
+  materialOld: {fileID: 2100000, guid: 4d7aecefd5cb9a24b97261353f18cf24, type: 2}
+  materialNoLight: {fileID: 2100000, guid: 0fe91956322ce824fa5409afb62bc705, type: 2}
+--- !u!64 &4349160046354757921
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8785292137822230238}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2003145609475442184, guid: 0145b5e6aea01554aa6dd8edc8a2a2cb, type: 3}

@@ -18,7 +18,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7207bfbacd647ec4ca19f1cb29d6f258, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -3.4599996
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7207bfbacd647ec4ca19f1cb29d6f258, type: 3}
       propertyPath: m_LocalRotation.w
@@ -51,19 +51,19 @@ PrefabInstance:
     - target: {fileID: -7373705124559163293, guid: 7207bfbacd647ec4ca19f1cb29d6f258, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 1266266451cc281419272ed85b137df3, type: 2}
+      objectReference: {fileID: 2100000, guid: d0e02309acc69bb4f81050b9f71bbfc0, type: 2}
     - target: {fileID: -5987410673878111032, guid: 7207bfbacd647ec4ca19f1cb29d6f258, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 1266266451cc281419272ed85b137df3, type: 2}
+      objectReference: {fileID: 2100000, guid: 3ab2c2613ecf31c4197bef5b444d2381, type: 2}
     - target: {fileID: -5898008660381507705, guid: 7207bfbacd647ec4ca19f1cb29d6f258, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 1266266451cc281419272ed85b137df3, type: 2}
+      objectReference: {fileID: 2100000, guid: eceafe59b58166f47ae6f12b2720bfc4, type: 2}
     - target: {fileID: -2859109400176981367, guid: 7207bfbacd647ec4ca19f1cb29d6f258, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 36837972113ab5c45a1c4cac5eefc3fc, type: 2}
+      objectReference: {fileID: 2100000, guid: d0e02309acc69bb4f81050b9f71bbfc0, type: 2}
     - target: {fileID: 919132149155446097, guid: 7207bfbacd647ec4ca19f1cb29d6f258, type: 3}
       propertyPath: m_Name
       value: saw_01
@@ -71,7 +71,7 @@ PrefabInstance:
     - target: {fileID: 8032750206264916975, guid: 7207bfbacd647ec4ca19f1cb29d6f258, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 1266266451cc281419272ed85b137df3, type: 2}
+      objectReference: {fileID: 2100000, guid: 98066f702386f3e408ac3ba698a30f10, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -142,9 +142,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 221dd027812f65b41b98f03c66d969f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materialDefault: {fileID: 0}
+  materialDefault: {fileID: 2100000, guid: d0e02309acc69bb4f81050b9f71bbfc0, type: 2}
   materialOld: {fileID: 2100000, guid: 36837972113ab5c45a1c4cac5eefc3fc, type: 2}
-  materialNoLight: {fileID: 2100000, guid: 4faa2a8b2a428ee44a3d72deb112087c, type: 2}
+  materialNoLight: {fileID: 2100000, guid: 48cb5a8cdc2f9b6429eff2d58729bd3b, type: 2}
 --- !u!1 &1902453456979429294 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5530701255766440318, guid: 7207bfbacd647ec4ca19f1cb29d6f258, type: 3}
@@ -162,7 +162,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 221dd027812f65b41b98f03c66d969f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materialDefault: {fileID: 0}
+  materialDefault: {fileID: 2100000, guid: eceafe59b58166f47ae6f12b2720bfc4, type: 2}
   materialOld: {fileID: 2100000, guid: 1266266451cc281419272ed85b137df3, type: 2}
   materialNoLight: {fileID: 2100000, guid: 4faa2a8b2a428ee44a3d72deb112087c, type: 2}
 --- !u!1 &2420823656949926789 stripped
@@ -182,9 +182,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 221dd027812f65b41b98f03c66d969f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materialDefault: {fileID: 0}
+  materialDefault: {fileID: 2100000, guid: 3ab2c2613ecf31c4197bef5b444d2381, type: 2}
   materialOld: {fileID: 2100000, guid: 1266266451cc281419272ed85b137df3, type: 2}
-  materialNoLight: {fileID: 2100000, guid: 4faa2a8b2a428ee44a3d72deb112087c, type: 2}
+  materialNoLight: {fileID: 2100000, guid: 828ea14ad2f03714fbfcc6913c2f8f60, type: 2}
 --- !u!1 &4475115968384356332 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7547169208358973756, guid: 7207bfbacd647ec4ca19f1cb29d6f258, type: 3}
@@ -202,9 +202,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 221dd027812f65b41b98f03c66d969f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materialDefault: {fileID: 0}
+  materialDefault: {fileID: 2100000, guid: d0e02309acc69bb4f81050b9f71bbfc0, type: 2}
   materialOld: {fileID: 2100000, guid: 1266266451cc281419272ed85b137df3, type: 2}
-  materialNoLight: {fileID: 2100000, guid: 4faa2a8b2a428ee44a3d72deb112087c, type: 2}
+  materialNoLight: {fileID: 2100000, guid: 48cb5a8cdc2f9b6429eff2d58729bd3b, type: 2}
 --- !u!1 &6514256724914324353 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 7207bfbacd647ec4ca19f1cb29d6f258, type: 3}
@@ -226,7 +226,7 @@ MonoBehaviour:
   downSpeed: 5
   downTime: 1
   riseSpeed: 2
-  offSet: 0
+  offSet: 1
   gameManager: {fileID: 0}
   ball: {fileID: 0}
 --- !u!65 &299967519010982524
@@ -294,6 +294,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 221dd027812f65b41b98f03c66d969f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materialDefault: {fileID: 0}
+  materialDefault: {fileID: 2100000, guid: 98066f702386f3e408ac3ba698a30f10, type: 2}
   materialOld: {fileID: 2100000, guid: 1266266451cc281419272ed85b137df3, type: 2}
-  materialNoLight: {fileID: 2100000, guid: 4faa2a8b2a428ee44a3d72deb112087c, type: 2}
+  materialNoLight: {fileID: 2100000, guid: 0e256d475b755d942a0e134884bf8a30, type: 2}

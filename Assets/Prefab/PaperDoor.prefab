@@ -63,7 +63,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: b41b109cb0be06243be7a29939261d5a, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 6fc1430e56d91e74592a4ced140ec481, type: 2}
+      objectReference: {fileID: 2100000, guid: c5b1c3d3b6071a443a78914a121e18e7, type: 2}
     - target: {fileID: 919132149155446097, guid: b41b109cb0be06243be7a29939261d5a, type: 3}
       propertyPath: m_Name
       value: PaperDoor
@@ -142,6 +142,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 221dd027812f65b41b98f03c66d969f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materialDefault: {fileID: 2100000, guid: 4321b052087376c458dad833c86b65bf, type: 2}
+  materialDefault: {fileID: 2100000, guid: c5b1c3d3b6071a443a78914a121e18e7, type: 2}
   materialOld: {fileID: 2100000, guid: 6fc1430e56d91e74592a4ced140ec481, type: 2}
   materialNoLight: {fileID: 2100000, guid: 3cb34e78ac6c69e4f80ee5016eddd343, type: 2}

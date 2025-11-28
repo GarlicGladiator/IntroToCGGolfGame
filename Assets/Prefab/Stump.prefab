@@ -51,11 +51,11 @@ PrefabInstance:
     - target: {fileID: -7795890743599634541, guid: eee0e57dcbdd99e41b53280cec610666, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: e636d0ace3843854abbb68e971b74013, type: 2}
+      objectReference: {fileID: 2100000, guid: 041a6d735b08bc54491904d40feb033e, type: 2}
     - target: {fileID: -2129597850102010012, guid: eee0e57dcbdd99e41b53280cec610666, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: e636d0ace3843854abbb68e971b74013, type: 2}
+      objectReference: {fileID: 2100000, guid: 041a6d735b08bc54491904d40feb033e, type: 2}
     - target: {fileID: 249419110946910205, guid: eee0e57dcbdd99e41b53280cec610666, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
@@ -103,7 +103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 221dd027812f65b41b98f03c66d969f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materialDefault: {fileID: 2100000, guid: 1814de8eb4445bc4fbd68332a77ac298, type: 2}
+  materialDefault: {fileID: 2100000, guid: 041a6d735b08bc54491904d40feb033e, type: 2}
   materialOld: {fileID: 2100000, guid: e636d0ace3843854abbb68e971b74013, type: 2}
   materialNoLight: {fileID: 2100000, guid: 96087ee8a0210d94a82c729e2d31c1e0, type: 2}
 --- !u!1 &7296338127792532012 stripped

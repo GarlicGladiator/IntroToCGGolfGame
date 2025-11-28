@@ -55,7 +55,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: ba0daf09d4c6ac84587c1f15f35a7eb6, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 8bc1138a1b9b4d344afad1c4a005e2b1, type: 2}
+      objectReference: {fileID: 2100000, guid: c5b1c3d3b6071a443a78914a121e18e7, type: 2}
     - target: {fileID: 919132149155446097, guid: ba0daf09d4c6ac84587c1f15f35a7eb6, type: 3}
       propertyPath: m_Name
       value: PPdoor3
@@ -110,6 +110,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 221dd027812f65b41b98f03c66d969f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materialDefault: {fileID: 2100000, guid: 4321b052087376c458dad833c86b65bf, type: 2}
+  materialDefault: {fileID: 2100000, guid: 041a6d735b08bc54491904d40feb033e, type: 2}
   materialOld: {fileID: 2100000, guid: 8bc1138a1b9b4d344afad1c4a005e2b1, type: 2}
   materialNoLight: {fileID: 2100000, guid: 10abbabbc8489e641a9af5f42c413fb0, type: 2}
