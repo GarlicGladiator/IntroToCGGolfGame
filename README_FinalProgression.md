@@ -1,5 +1,15 @@
 # IntroToCGGolfGame
 
+You can toggle by pressing:
+1 - Old vs New
+2 - Lighting effects
+3 - Textures
+4 - Color grading
+5 - Color grading
+
+Presentation link: https://docs.google.com/presentation/d/13diHdjHss3qaYVfaAWgJ8tjGQUZ2sMg08rfj8EWHC1E/edit?usp=sharing
+Youtube video: https://youtu.be/AohSUTxAzGQ
+
 Jason's visual additions:
 - The first thing I implement was the Painted + Toon shader. It pretty much behaves just like any other toon shader but this one applies a painted texture over it as well. This was used because our game was going for an painted asian asthetic like the game Sifu. The painted toon shader really helped tie the ball (which is the player) together with the rest of the world despite it being so bright of a color. This shader was quite versatile with its properties being exposed in the engine. It could be applied to other objects around the scene, as long as they have some curavature to them. If it doesn't have curavature, the lighting does not really work. All in all, I loved how it looked like it was hand painted. The floor, the walls, other objects around the scene, they all had this brush like effect. Visual cohesion really sells a game to a player as well so it was important things looked like they belonged together and was made for the same purpose
 - The next one I made was a grass shader that would sway in the wind. This shader utilized vertex painting in blender to paint the top white and the bottom black. That does not seem to useful at first but that allowed me to use the vertex paint node to extract that and use it as a mask, allowing me to create a nice gradient on my grass. Another reason why I used vertex painting and used it in my shader was because I knew it could be used for more than one purpose. If you think about grass swaying, the tops sway as the bottom is rooted in the ground. Luckily the bottom of the model is painted black so that mask can be reused to root the grass to the floor and have the tops sway a lot more than the bottoms. I decided to implement grass because a golf course in games are very flat, as is the nature of golf. To make these flat surfaces more interesting, the grass and its swaying makes the terrain more dynamic without adding any obstacles that could hinder the player.
