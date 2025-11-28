@@ -62,19 +62,20 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Brightness: 0.92
-    - _Glossiness: -0.03
-    - _Metallic: 0
-    - _Normal_Strength: 0.11
-    - _Normal_Strength2: -0.76
+    - _Brightness: 1
+    - _Glossiness: 0.12
+    - _Metallic: 1
+    - _Normal_Strength: -0.21
+    - _Normal_Strength2: -0.79
     - _Opacity: 3.31
     - _Paint_Smoothness: 0.1
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _Tiling_Multiplier: 1
     m_Colors:
-    - _Color: {r: 1, g: 0.83137256, b: 0.53333336, a: 1}
-    - _LightColour: {r: 1, g: 0.83137256, b: 0.53333336, a: 1}
-    - _Specular_Colour: {r: 1, g: 0, b: 0.8227253, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _LightColour: {r: 1, g: 0.5424528, b: 0.5424528, a: 1}
+    - _Specular_Colour: {r: 0.5754717, g: 0.3905612, b: 0.078720205, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &7713824559529486784

@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: RainRipples
-  m_Shader: {fileID: 4800000, guid: 13c02b14c4d048fa9653293d54f6e0e1, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 17e31e8111c6562468262928fb3f7452, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -73,12 +73,12 @@ Material:
     m_Floats:
     - PixelSnap: 0
     - _EnableExternalAlpha: 0
-    - _FPS: 23.1
-    - _Mask_Speed: 2.15
+    - _FPS: 16
+    - _Mask_Speed: 1.85
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _RippleStrength: 0.17
-    - _RippleTile: -6.82
+    - _RippleStrength: 0.93
+    - _RippleTile: -102.3
     - _Speed: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
