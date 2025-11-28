@@ -33,7 +33,7 @@ public class ColourGradeToggle : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Alpha5)) //5
             SetLUT(lutB);
 
-        if (Input.GetKeyDown(KeyCode.Alpha6)) //6
+        if (Input.GetKeyDown(KeyCode.Alpha0)) //0
             SetLUT(lutC);
     }
 }
