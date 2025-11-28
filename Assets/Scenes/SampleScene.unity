@@ -4019,7 +4019,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f90ec801aaf1ed24bb6db3b5192f2ac5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ballMovement: {fileID: 0}
+  ballMovement: {fileID: 1276447068}
   slider: {fileID: 694705482}
 --- !u!114 &694705482
 MonoBehaviour:
@@ -7719,7 +7719,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5095753536925187837, guid: b73e048c7e7447d48ace9fb9a3881998, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.057
+      value: -0.82
       objectReference: {fileID: 0}
     - target: {fileID: 5095753536925187837, guid: b73e048c7e7447d48ace9fb9a3881998, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8054,6 +8054,17 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1262788773}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1276447068 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8479797700633863099, guid: b73e048c7e7447d48ace9fb9a3881998, type: 3}
+  m_PrefabInstance: {fileID: 1237830766}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4a1e7beb99405042bf8f4e3e5649ee7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1279969174
 PrefabInstance:
   m_ObjectHideFlags: 0
