@@ -118,7 +118,7 @@ Material:
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
-    - _FogEnd: 40
+    - _FogEnd: 100
     - _FogStart: 5
     - _GlossMapScale: 0
     - _Glossiness: 0
