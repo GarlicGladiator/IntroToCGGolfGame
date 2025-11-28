@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 832917793813424354}
   - component: {fileID: 4464232352383547420}
   - component: {fileID: 8479797700633863099}
+  - component: {fileID: 8472686754327339183}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Player
@@ -155,3 +156,18 @@ MonoBehaviour:
   cam: {fileID: 0}
   maxLineDistance: 2.5
   gameManager: {fileID: 0}
+--- !u!114 &8472686754327339183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3128353640940773231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 221dd027812f65b41b98f03c66d969f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materialDefault: {fileID: 2100000, guid: 4321b052087376c458dad833c86b65bf, type: 2}
+  materialOld: {fileID: 2100000, guid: a7fcf3d55f05cf94b8ac90a7f6afea2a, type: 2}
+  materialNoLight: {fileID: 2100000, guid: 37bec891ae8bbea47a77126a666e0bc6, type: 2}
