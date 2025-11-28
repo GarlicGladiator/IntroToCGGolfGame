@@ -13,7 +13,6 @@ public class ToggleManager : MonoBehaviour
 
     void Start()
     {
-        // Safe checks
         if (mapNew != null) mapNew.SetActive(true);
         if (mapOld != null) mapOld.SetActive(false);
 
