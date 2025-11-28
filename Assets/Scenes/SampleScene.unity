@@ -2744,6 +2744,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1948734593}
     m_Modifications:
+    - target: {fileID: 4675594970904277368, guid: 669dc54fe3cf8884085a06946c9165e3, type: 3}
+      propertyPath: materialDefault
+      value: 
+      objectReference: {fileID: 2100000, guid: eceafe59b58166f47ae6f12b2720bfc4, type: 2}
     - target: {fileID: 6337264435551750799, guid: 669dc54fe3cf8884085a06946c9165e3, type: 3}
       propertyPath: m_Name
       value: PaperDoor
@@ -2810,6 +2814,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1948734593}
     m_Modifications:
+    - target: {fileID: -642944709144890548, guid: f6d1c73f08e82ef488a30d2e46238240, type: 3}
+      propertyPath: materialDefault
+      value: 
+      objectReference: {fileID: 2100000, guid: eceafe59b58166f47ae6f12b2720bfc4, type: 2}
     - target: {fileID: 7259302166516883593, guid: f6d1c73f08e82ef488a30d2e46238240, type: 3}
       propertyPath: m_Name
       value: PPdoor3 (1)
@@ -5243,6 +5251,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1948734593}
     m_Modifications:
+    - target: {fileID: -642944709144890548, guid: f6d1c73f08e82ef488a30d2e46238240, type: 3}
+      propertyPath: materialDefault
+      value: 
+      objectReference: {fileID: 2100000, guid: eceafe59b58166f47ae6f12b2720bfc4, type: 2}
     - target: {fileID: 7259302166516883593, guid: f6d1c73f08e82ef488a30d2e46238240, type: 3}
       propertyPath: m_Name
       value: PPdoor3 (2)
@@ -6860,6 +6872,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1948734593}
     m_Modifications:
+    - target: {fileID: -642944709144890548, guid: f6d1c73f08e82ef488a30d2e46238240, type: 3}
+      propertyPath: materialDefault
+      value: 
+      objectReference: {fileID: 2100000, guid: eceafe59b58166f47ae6f12b2720bfc4, type: 2}
     - target: {fileID: 7259302166516883593, guid: f6d1c73f08e82ef488a30d2e46238240, type: 3}
       propertyPath: m_Name
       value: PPdoor3
@@ -7363,6 +7379,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1948734593}
     m_Modifications:
+    - target: {fileID: 4675594970904277368, guid: 669dc54fe3cf8884085a06946c9165e3, type: 3}
+      propertyPath: materialDefault
+      value: 
+      objectReference: {fileID: 2100000, guid: eceafe59b58166f47ae6f12b2720bfc4, type: 2}
     - target: {fileID: 6337264435551750799, guid: 669dc54fe3cf8884085a06946c9165e3, type: 3}
       propertyPath: m_Name
       value: PaperDoor (1)
@@ -8788,6 +8808,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1948734593}
     m_Modifications:
+    - target: {fileID: 4675594970904277368, guid: 669dc54fe3cf8884085a06946c9165e3, type: 3}
+      propertyPath: materialDefault
+      value: 
+      objectReference: {fileID: 2100000, guid: eceafe59b58166f47ae6f12b2720bfc4, type: 2}
     - target: {fileID: 6337264435551750799, guid: 669dc54fe3cf8884085a06946c9165e3, type: 3}
       propertyPath: m_Name
       value: PaperDoor (2)
