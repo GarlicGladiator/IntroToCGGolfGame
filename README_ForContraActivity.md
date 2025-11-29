@@ -15,3 +15,9 @@ This transparency shader was made for the flat sprites in the background of the 
 
 Pixel Shader:
 This shader is applied to the active renderer and makes all things in the scene visually pixelated to a certain amount. Whether the camera zooms in or out, the number of pixels will always remain the same. I created this shader because Contra itself is a pixelated game. I think this shader really helps bring things to a more consistent style because without it, there is a super cartoonish water and a super rendered terrain with 2D cartoony background sprites. With the shader, it makes everything more cohesive in quality and style. It brings out the flat colours in all the shapes that are necessary for a pixel style, making it quite cartoonish overall. So this visually definitley benefits the environment by making things more visually clear (clear colour values and contrast) and consistent.
+
+Photos:
+![alt text](image-3.png)
+![alt text](image-4.png)
+![alt text](image-5.png)
+![alt text](image-6.png)
